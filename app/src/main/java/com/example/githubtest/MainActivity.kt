@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         val textv = findViewById<TextView>(R.id.main)
-        Toast.makeText(this, "hello ", Toast.LENGTH_SHORT).show()
 
 
     }
